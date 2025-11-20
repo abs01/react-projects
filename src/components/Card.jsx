@@ -1,12 +1,12 @@
-import profilePic from '../assets/images/Yo.jpg';
 
-export default function Card()  {
+export default function Card({title, description, imageUrl})  {
+
 return (
     <div className="card">
-        <h2 className="card-title">Este Soy yo</h2>
+        <h2 className="card-title">{title}</h2>
 
-        <img className="card-image" alt="mi foto" src={profilePic}></img>
-        <p className="card-text">Soy un alumno de DAW y estoy estudiando React y Php </p>
+        <img className="card-image" alt="mi foto" src={imageUrl}></img>
+        <p className="card-text">{description}</p>
     </div>
 )
 

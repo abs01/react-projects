@@ -7,7 +7,6 @@ export default function NewsLetter() {
     const [verified, setVerified] = useState(false);
 
     function sendEmail(){
-         setVerified(false);
          checkEmail(email) && setVerified(true);  
               
     }   
@@ -26,7 +25,7 @@ export default function NewsLetter() {
         <input type="text" onChange={(e) => handleChange(e)}/>
         <button onClick={() => sendEmail()}>Subscribe</button>  
         
-        {verified &&  <p>Gracias por suscribirte al newsletter! {email.slice(0, email.indexOf("@"))} </p>     }      
+        {verified &&  <p>Gracias por suscribirte al newsletter! {email.slice(0, email.indexOf("@"))} </p>}      
              
              </div>
         </>

@@ -1,4 +1,5 @@
 import { FaRegSun } from "react-icons/fa6";
+
 export default function Header({title}) {
     return (
         <>
@@ -8,7 +9,7 @@ export default function Header({title}) {
                 <a href="../../index.html">Pagina principal</a> &nbsp;
                 <a href="../../projectes.html">Projectes</a> &nbsp; 
                 <a href="../../newsLetter.html">Newsletter</a> &nbsp;
-                <a href="../../contacte.html">Contacte</a>
+                <a href="../../contacte.html">Contacte</a>   &nbsp;
                 <button id="theme-button"><FaRegSun size={20}/></button>
             </nav>
             
