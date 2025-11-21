@@ -1,6 +1,7 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 import Header from "./Header";
 import Footer from "./Footer";
 export default function Contact() {
@@ -14,7 +15,8 @@ export default function Contact() {
          <a href="https://x.com/johndoe"><FaTwitter size={40}/></a>
          <a href="https://www.instagram.com/johndoe/"><AiFillInstagram size={40}/></a>
         </div>
-        <h2> O si eres más old school</h2>
+        <h2> Mail</h2>
+       <a href="mailto:abso1@iesemilidarder.com"><MdEmail size={40}/></a>
 
       </div>
       <Footer />

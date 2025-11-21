@@ -1,6 +1,6 @@
 
 
-@custom-variant dark (&:is(.dark *));
+/* @custom-variant dark (&:is(.dark *)); */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -37,11 +37,16 @@ header {
 
 /* Footer always at the bottom */
 footer {
-    padding: 15px;
     text-align: center;
     background: hsl(0, 0%, 95%);
     border-top: 1px solid hsl(0, 0%, 80%);
-    margin-top: auto;   /* 👈 pushes footer to bottom */
+    
+    position: fixed;
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
 /* Main content area - centers the card */
@@ -60,6 +65,7 @@ main {
 
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10%;
     text-align: center;
 
     max-width: 400px;
@@ -71,7 +77,26 @@ main {
     padding: 20px;             
 }
 
-.card .card-image{
+.presentation_card {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    text-align: center;
+
+    max-width: 400px;
+
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;             
+}
+
+.presentation_card .card-image{
 
     max-width: 60%;
 
@@ -85,7 +110,7 @@ main {
 
 }
 
-.card .card-title{
+ .card-title{
 
     font-family: Arial, sans-serif;
 
@@ -95,7 +120,7 @@ main {
 
 }
 
-.card .card-text{
+ .card-text{
 
     font-family: Arial, sans-serif;
 
@@ -103,7 +128,7 @@ main {
 
 }
 
-@theme inline {
+/* @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -217,4 +242,4 @@ main {
   body {
     @apply bg-background text-foreground;
   }
-}
+} */
