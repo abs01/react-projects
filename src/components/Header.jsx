@@ -7,9 +7,9 @@ export default function Header({title}) {
             <h1>{title}</h1>
             <nav>
                 <a href="/index.html">Pagina principal</a> &nbsp;
-                <a href="/src/assets/indexes/projectes.html">Projectes</a> &nbsp; 
-                <a href="/src/assets/indexes/newsLetter.html">Newsletter</a> &nbsp;
-                <a href="/src/assets/indexes/contacte.html">Contacte</a>   &nbsp;
+                <a href="/projectes.html">Projectes</a> &nbsp; 
+                <a href="/newsLetter.html">Newsletter</a> &nbsp;
+                <a href="/contacte.html">Contacte</a>   &nbsp;
                 <button id="theme-button"><FaRegSun size={20}/></button>
             </nav>
             
