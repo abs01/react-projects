@@ -13,7 +13,7 @@ export default function Projectes() {
   
 function submitclick(ref){
   console.log(ref)
-    ref.scrollIntoView();
+    ref.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" })
 }
 
   return (
