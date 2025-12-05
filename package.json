@@ -1,9 +1,9 @@
 {
-  "name": "projecte-ut4abs",
+  "name": "react-projects",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://abs01.github.io/projecte-ut4abs",
+  "homepage": "https://abs01.github.io/react-projects",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
