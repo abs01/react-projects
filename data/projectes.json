@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Visualizador del hospital son espases en VR (proyecto real)",
+    "description": "Para mi proyecto de TFG de DAM tomé la interesante pero arriesgada decisión de hacer un proyecto en unity (C#) que permitiera una experiencia inmersiva en el hospital de Son Espases mediante fotos en 360 al mismo tiempo que realizaba el proyecto grupal de clase oficial en Java . Lamentablemente al final no me lo aceptaron y tuve que presentar mi parte del proyecto grupal, que terminó aprobada. Tengo planes a futuro de cambiar el engine que usé a Godot, Ya que al final el proyecto lo perdí y Unity es demasiado para ello, además de que godot tiene implementación más simple para VR. El vídeo de arriba muestra el proyecto en fase temprana ejecutado en oculus.",
+    "video": "jVH9H5cfWZs"
+  },
+  {
+    "name": "Sistema de Gestión de Inventario (placeholder)",
+    "description": "Aplicación desarrollada para gestionar inventarios en pequeñas y medianas empresas. Incluye control de stock, historial de movimientos y generación automática de alertas cuando ciertos productos llegan a niveles mínimos.",
+    "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1"
+  },
+  {
+    "name": "App de Hábitos y Tareas (placeholder)",
+    "description": "Aplicación móvil que permite a los usuarios crear y seguir hábitos diarios, además de gestionar tareas pendientes mediante un sistema de notificaciones y recompensas gamificadas.",
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3"
+  },
+  {
+    "name": "Web de Reservas para Restaurantes (placeholder)",
+    "description": "Desarrollo de una plataforma web que permite a los restaurantes gestionar reservas, disponibilidad de mesas y horarios. Incluye panel de administración y vista pública para los clientes.",
+    "video": "ScMzIvxBSi4"
+  },
+  {
+    "name": "Dashboard de Analítica (placeholder)",
+    "description": "Dashboard interactivo construido con visualizaciones dinámicas para monitorizar métricas de negocio como ventas, retención de usuarios y rendimiento de campañas.",
+    "image": "https://images.unsplash.com/photo-1556155092-8707de31f9c4"
+  }
+]
