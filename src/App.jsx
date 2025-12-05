@@ -9,9 +9,15 @@ function App() {
 
   return (
     <>
+<<<<<<< HEAD
     <Header title="Proyectos" />
     <Projectes />
     <Footer />
+=======
+          <Header title="Principal"/>
+      <Landing />
+          <Footer />
+>>>>>>> 8478eb5 (import)
 
     </>
   )
