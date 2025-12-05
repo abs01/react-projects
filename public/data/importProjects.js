@@ -1,5 +1,5 @@
 export function importProjects(setProjects){
-    fetch("/data/projectes.json")
+    fetch("./projectes.json")
         .then(r => r.json())
         .then(data => {
             if(data.length==0) console.log("Unable to load any projects");
