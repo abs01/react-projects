@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { importProjects } from "../services/importProjects.js";
+import { importProjects } from "../../public/data/importProjects.js";
 import Card from "./Card.jsx";
 import { AnimatedBackground } from 'animated-backgrounds';
 import { nanoid } from "nanoid";
